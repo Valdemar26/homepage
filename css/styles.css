@@ -1,0 +1,32 @@
+body {
+  margin: 20px 0;
+  padding: 0;
+}
+.ui.container {
+  border: 5px solid #808080;
+  border-radius: 5px;
+}
+.photo img {
+    border: 5px solid #808080;
+    border-radius: 50%;
+}
+
+/* Sepia */
+.sepia {
+  -webkit-filter: sepia(0);
+  filter: sepia(0);
+}
+.sepia:hover {
+  -webkit-filter: sepia(100%);
+  filter: sepia(100%);
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+
+  cursor: pointer;
+}
+
+.hr {
+  border: 2px solid #808080;
+  width: 30%;
+  margin: 0 auto;
+}
